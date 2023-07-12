@@ -1,0 +1,54 @@
+#ScreenShots{
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 80px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.ScreenShots{
+    width: 100%;
+}
+.ScreenShotsBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 1200px) {
+    .ScreenShot:nth-of-type(4){
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 840px) {
+    .ScreenShot:nth-of-type(3){
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    .ScreenShot img{
+        width: 230px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 515px) {
+    .ScreenShot img{
+        width: 190px;
+        height: auto;
+    }
+  }
+@media only screen and (max-width: 515px) {
+    .ScreenShot img{
+        width: 190px;
+        height: auto;
+    }
+  }
+@media only screen and (max-width: 380px) {
+    .ScreenShotsBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ScreenShot img{
+        width: 220px;
+        height: auto;
+    }
+  }

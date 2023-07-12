@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* ################### */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.containerBox{
+  display: flex;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .containerBox {
+      max-width: 960px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .containerBox {
+      max-width: 800px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .containerBox {
+      max-width: 600px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .containerBox {
+      max-width: 480px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .containerBox {
+      max-width: 380px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .containerBox {
+    max-width: 310px;
+}
+}

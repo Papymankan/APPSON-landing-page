@@ -1,0 +1,25 @@
+.Pricing{
+    width: 100%;
+    padding:90px 0 60px 0;
+    font-family: 'Montserrat';
+}
+#PricingBox{
+    flex-direction: column;
+    text-align: center;
+}
+#PricingBox>span{
+    margin-top: 20px;
+}
+.PricingCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.PricingCards{
+    display: flex;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 840px) {
+
+  }

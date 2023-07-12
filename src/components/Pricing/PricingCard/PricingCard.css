@@ -1,0 +1,49 @@
+.PricingCard{
+    width: 32%;
+    box-shadow: 3px 14px 19px 0px rgba(0,0,0,0.73);
+    border-radius:  0 0 20px 20px;
+}
+.PricingCard-header{
+    border-radius: 20px 20px 0 0 ;
+    background-color: #ff6818;
+    color: white;
+    padding-top: 28px;
+    padding-bottom: 18px;
+}
+.PricingCard-header h3{
+    font-size: 20px;
+}
+.PricingCard-detail{
+    border-radius:  0 0 20px 20px;
+}
+.PricingCard-detail span{
+    display: block;
+    margin-top: 12px;
+    font-size: 19px;
+}
+.PricingCard-detail button{
+    /* display: block; */
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 17px;
+}
+@media only screen and (max-width: 840px) {
+    .PricingCard{
+        width: 47%;
+        
+    }
+    .PricingCard:nth-of-type(3){
+        width: 80%;        
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .PricingCard{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .PricingCard:nth-of-type(3){
+        width: 100%;        
+    }
+  }

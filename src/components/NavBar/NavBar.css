@@ -1,0 +1,68 @@
+#NavbarBox {
+    /* width: 100%; */
+    justify-content: space-between;
+}
+
+#Navbar {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    transition: all .5s;
+    height: 80px;
+}
+
+.fixed {
+    box-shadow: 0px 4px 3px 1px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 0px 4px 3px 1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 4px 3px 1px rgba(0, 0, 0, 0.41);
+    background-color: #fe601a;
+}
+.navbar-nav a {
+    margin: 0 6px;
+    font-size: 15px;
+}
+.navbar-nav a:current {
+    margin: 0 6px;
+    font-size: 19px;
+}
+#navToggle{
+    display: none;
+    color: white;
+}
+#navToggle svg{
+    font-size: 40px;
+}
+.navBarSlide{
+    z-index: 11;
+    width: 300px;
+    height: 1000px;
+    color: white;
+    background-color: #f8550f;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    left: -300px;
+    top: 0;
+    transition: all .5s;
+}
+.SlideNavLink{
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 100%;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+    #navToggle{
+        display: block;
+    }
+    .navBarSlide{
+        display: flex;
+    }
+    .navBarNav{
+        display: none;
+    }
+  }
+
+
+

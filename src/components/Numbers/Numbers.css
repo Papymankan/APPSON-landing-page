@@ -1,0 +1,9 @@
+.Numbers{
+    width: 100%;
+    background-color: #ff6818;
+    padding: 70px 0 90px 0;
+}
+#NumbersBox{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

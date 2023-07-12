@@ -1,0 +1,33 @@
+.carouselItem{
+        height: 300px;
+}
+.owl-dot{
+        color: #ff6818;
+}
+.carouselItemTop{
+        display: flex;
+        align-items: center;
+}
+.carouselItemImg{
+        border: 2px solid #ff6818;;
+        border-radius: 70px;
+}
+.carouselItemImg img{
+        height: 120px;
+        border: 2px solid white;
+        border-radius: 70px;
+}
+.carouselItemTopInfo{
+        margin-left: 20px;
+}
+.carouselItemTopInfo h3{
+        font-size: 26px;
+}
+.carouselItemTopInfo .starBox{
+        margin-top: 8px;
+        color: #ff6818;
+}
+.carouselItemBottom{
+        margin-top: 20px;
+        text-align: start;
+}

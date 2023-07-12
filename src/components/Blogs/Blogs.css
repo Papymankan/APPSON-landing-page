@@ -1,0 +1,17 @@
+.Blogs{
+    padding: 50px 0;
+}
+#BlogsBox{
+    flex-direction: column;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+#BlogsBox span{
+    margin-top: 20px;
+}
+.BlogBoxes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

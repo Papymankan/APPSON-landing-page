@@ -1,0 +1,26 @@
+.Button{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    padding: 12px 34px;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 19px;
+    transition: all .5s;
+}
+.orange{
+    border: 2px solid #fe601a;
+    color: #fe601a;   
+}
+.orange:hover{
+    color: white;
+    background-color: #fe601a;   
+}
+.white{
+    border: 2px solid white;
+    color: white;   
+}
+.white:hover{
+    color: black;
+    background-color: white;   
+}

@@ -1,0 +1,57 @@
+.SubForm{
+    background-color: #ff6818;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    color: white;
+    font-family: 'Montserrat';
+}
+#SubFormBox{
+    flex-direction: column;
+    text-align: center;
+}
+#SubFormBox span{
+    margin-top: 15px;
+}
+.FormInputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+.FormInputs input{
+    width: 30%;
+    outline: 0;
+    border: 2px solid white;
+    background: #ff6818;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 22px;
+}
+.FormInputs input:nth-of-type(3){
+    color: #ff6818;
+    background-color: white;
+}
+.FormInputs input:focus{
+    outline: 0;
+}
+.FormInputs input::placeholder{
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    .FormInputs input{
+        width: 47%;
+    }
+    .FormInputs input:nth-of-type(3){
+        margin-top: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 620px) {
+    .FormInputs input{
+        width: 85%;
+        margin-top: 30px;
+    }
+    /* .FormInputs input:nth-of-type(3){
+    } */
+  }

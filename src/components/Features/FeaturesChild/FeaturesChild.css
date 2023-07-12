@@ -1,0 +1,18 @@
+.FeaturesChild{
+    /* text-align: start; */
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 30px;
+}
+.FeaturesIcon{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 24px;
+    border-radius: 50px;
+    color: #ff6818;
+    background-color: white;
+}
+.FeaturesDetail h3{
+    font-size: 24px;
+    margin-top: 12px;
+}

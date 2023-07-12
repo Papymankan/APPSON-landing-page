@@ -1,0 +1,14 @@
+.Review{
+    font-family: 'Montserrat', sans-serif;
+}
+#ReviewBox{
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 0;
+}
+#ReviewBox span {
+    margin-top: 15px;
+}
+.owl-theme{
+    margin-top: 40px;
+}

@@ -1,0 +1,34 @@
+.TeamMember{
+    color: white;
+    width: auto;
+    width: 262px;
+    height: 400px;
+    /* background-image: url("/public/sources/Team/img1.jpg.webp"); */
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+}
+.TeamMemberInfo{
+    background-color: #ff6818;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    height: 60%;
+    opacity: 0;
+    transition: all .6s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+.TeamMemberInfo span:nth-of-type(1){
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.TeamMemberInfo h4{
+    font-size: 20px;
+}
+.TeamMember:hover .TeamMemberInfo{
+    opacity: 1;
+}

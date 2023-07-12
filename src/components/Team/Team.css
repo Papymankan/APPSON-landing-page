@@ -1,0 +1,15 @@
+.Team{
+    width: 100%;
+    padding: 90px 0 60px 0;
+    font-family: 'Montserrat';
+}
+#TeamBox{
+    flex-direction: column;
+    text-align: center;
+}
+.TeamMembers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}

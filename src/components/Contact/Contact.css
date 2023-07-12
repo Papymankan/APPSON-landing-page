@@ -1,0 +1,129 @@
+.Contact {
+    width: 100%;
+    background-color: #ff6818;
+    color: white;
+    padding-bottom: 50px;
+    font-family: 'Montserrat';
+    margin-top: 40px;
+}
+
+#ContactBox {
+    flex-direction: column;
+    text-align: center;
+}
+
+.ContactCard {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    padding: 120px 30px;
+    position: relative;
+    top: -180px;
+}
+
+.FormContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.FormAddress {
+    width: 35%;
+    /* border: 1px solid red; */
+    /* text-align: left; */
+}
+
+.FormAddress h4 {
+    font-weight: bold;
+}
+
+.FormAddress span {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.FormAddress svg {
+    font-size: 35px;
+    margin-right: 10px;
+    padding: 7px;
+    border: 1px solid #ff6818;
+    border-radius: 50%;
+}
+
+
+.FormInput {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.FormInput input {
+    width: 100%;
+    margin-top: 15px;
+    height: 32px;
+    border: 0;
+    border-bottom: 1px solid rgb(150, 150, 150);
+    font-size: 18px;
+}
+
+.FormInput input:focus {
+    outline: 0;
+}
+
+.SendBtn {
+    padding: 10px 38px;
+    border: 0;
+    background-color: #ff6818;
+    color: white;
+    margin-top: 24px;
+    border-radius: 17px;
+    align-self: center;
+    /* margin-left: 10%; */
+}
+
+.Social{
+    margin-top: -120px;
+}
+.Social svg{
+    font-size: 48px;
+    margin: 20px;
+}
+.Social span{
+    display: block;
+    margin-top: 30px;
+}
+
+iframe {
+    width: 100%;
+    filter: brightness(.6);
+    display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+    .FormAddress {
+        text-align: center;
+        width: 80%;
+    }
+
+    .FormInput {
+        width: 80%;
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .FormInput input {
+        width: 100%;
+
+    }
+    .FormContainer {
+        justify-content: center;
+    }
+    .ContactCard{
+        padding: 50px 3px;
+    }
+}

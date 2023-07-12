@@ -1,0 +1,27 @@
+.AboutBox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.AboutBoxIcon {
+    border: 1px solid rgba(255,104,24);
+    padding: 30px;
+    border-radius: 50px;
+    color: rgba(255,104,24);
+}
+.AboutBoxDetail{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.AboutBoxDetail h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.AboutBoxDetail p{
+    margin: 0;
+    margin-top: 10px;
+}
